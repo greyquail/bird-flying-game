@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Sky blue background */
+}
+
+#game-container {
+    position: relative;
+    text-align: center;
+}
+
+#gameCanvas {
+    background-color: #a8e0ff;
+    border: 2px solid #000;
+}
+
+#gameMessage {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: white;
+    display: none;
+}
