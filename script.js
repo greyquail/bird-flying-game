@@ -75,6 +75,7 @@ function checkCollision() {
 
 // Game render function
 function renderGame() {
+    console.log("Game is running...");  // Check if the game is running
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Move the bird and apply gravity
